@@ -1,0 +1,88 @@
+/* Container */
+.container {
+    margin: auto;
+    font-family: Arial;
+}
+
+/* Header */
+header {
+    background-color: lightgray;   /* Light grey background */
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    font-family: Arial;
+}
+
+/* Navigation */
+.Menu {
+    background-color: lightgray;   /* Light grey background */
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-family: Arial;
+
+}
+
+/* Content area */
+.content {
+    display: flex;          /* Left, main, right side by side */
+    gap: 10px;              /* Space between them */
+    margin: 10px;
+    text-align: center;
+    font-family: Arial;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Left div */
+.left {
+    background-color: lightgray;
+    flex: 1;                /* Thora chota */
+    padding: 20px;
+    height: 300px;          /* Lamba */
+    font-family: Arial;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Main div */
+.main {
+    background-color: lightgray;
+    flex: 3;                /* Bara */
+    padding: 20px;
+    height: 300px;
+    font-family: Arial;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Right div */
+.right {
+    background-color: lightgray;
+    flex: 1;                /* Thora chota */
+    padding: 20px;
+    height: 300px;
+    font-family: Arial;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    Margin: 10px;
+    font-family: Arial;
+}
+
+
